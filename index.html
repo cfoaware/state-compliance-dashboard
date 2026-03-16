@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>State Compliance Dashboard</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=DM+Mono:wght@400;500&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#0a0e1a;--surface:#111827;--surface2:#1a2235;--border:#1e2d45;--accent:#00d4aa;--accent2:#ff6b35;--accent3:#7c3aed;--text:#e2e8f0;--muted:#64748b;}
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -145,6 +145,15 @@ footer strong{color:var(--accent);}
 </style>
 </head>
 <body>
+<!-- CFO Associates brand bar -->
+<div style="background:#fff;border-bottom:1px solid #e8eaed;padding:0 32px;height:56px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;font-family:'Nunito Sans','DM Sans',sans-serif;">
+  <div style="display:flex;align-items:center;gap:18px;">
+    <a href="https://tools.thecfoassociates.com" style="display:flex;align-items:center;gap:6px;text-decoration:none;color:#e8450a;font-size:13px;font-weight:700;padding:6px 12px;border-radius:8px;transition:background 0.15s;" onmouseover="this.style.background='rgba(232,69,10,0.08)'" onmouseout="this.style.background='none'">← Back</a>
+    <div style="width:1px;height:22px;background:#e8eaed;"></div>
+    <img src="https://tools.thecfoassociates.com/logo.webp" alt="CFO Associates" style="height:30px;" onerror="this.style.display='none'">
+  </div>
+  <div style="font-size:11px;font-weight:700;color:#e8450a;background:linear-gradient(135deg,rgba(232,69,10,0.1),rgba(247,160,26,0.1));border:1px solid rgba(232,69,10,0.2);padding:5px 14px;border-radius:20px;letter-spacing:0.06em;text-transform:uppercase;">🛒 Ecommerce · State Compliance</div>
+</div>
 <header>
   <div class="header-top">
     <div class="logo-area">
